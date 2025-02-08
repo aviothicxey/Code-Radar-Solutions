@@ -1,10 +1,4 @@
 #include <stdio.h>
-
-int main() {
-   
-    return 0;
-}#include <stdio.h>
-
 int main() {
    int a ,b,Product;
    scanf("%d%d",&a,&b);
