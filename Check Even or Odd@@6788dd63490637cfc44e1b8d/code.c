@@ -1,11 +1,11 @@
 // Your code here...
 #include<stdio.h>
 int main() {
-int a,b;
-if (a % 2 ==0){
-printf("Even");
-}
-else{
-printf("Odd");}
-
+int a;
+scanf("%d",&a);
+if (a % 2 ==0)
+printf("Even %d\n");
+else
+printf("Odd %d\n");
+return 0;
 }
