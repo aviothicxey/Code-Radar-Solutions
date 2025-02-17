@@ -2,9 +2,10 @@
 #include<stdio.h>
 int main() {
 int a,b;
-if (a % 2 ==0)
+if (a % 2 ==0){
 printf("Even");
-else
-printf("Odd");
+}
+else{
+printf("Odd");}
 return 0;
 }
