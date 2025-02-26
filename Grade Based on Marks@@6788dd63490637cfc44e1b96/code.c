@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
  int grade;
+ scanf("%d",&grade);
  if (grade>=90){
     printf("A");
  }
