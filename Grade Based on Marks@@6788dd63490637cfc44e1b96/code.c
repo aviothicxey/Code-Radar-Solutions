@@ -12,8 +12,7 @@ int main(){
  }
  else if(grade>= 60);{
     printf("D");
- }
- else{
+ } else{
     printf("F");
  }
     return 0;
