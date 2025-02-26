@@ -10,7 +10,7 @@ int main(){
  else if(grade >=70){
     printf("C");
  }
- else if(grade>= 60);{
+ else if(grade>= 60){
     printf("D");
  } else{
     printf("F");
