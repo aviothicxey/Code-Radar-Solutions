@@ -6,7 +6,7 @@ scanf("%d",&a);
 if (a>= b){
     printf("Eligible");
 }
-else(){
+else{
     printf("Not Eligible");
 }
     return 0;
