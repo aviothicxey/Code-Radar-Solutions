@@ -9,7 +9,7 @@ int main(){
         printf("No");
     }
     else{
-        printf("Yes")
+        printf("Yes");
     }
     return 0;
 }
