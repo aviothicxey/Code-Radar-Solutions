@@ -25,7 +25,7 @@ int main(){
         printf("* *\n*");
     }
     else if (i == 3){
-        printf("* * *\n* * \n *");
+        printf("* * *\n* * \n*");
     }
     else{
         printf("* * * *\n* * *\n* *\n*");
