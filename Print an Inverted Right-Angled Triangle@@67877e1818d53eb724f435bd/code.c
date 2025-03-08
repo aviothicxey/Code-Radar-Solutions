@@ -10,7 +10,7 @@ int main()
 {
     int height;
     scanf("%d\n",&height);
-    int n = triangle(height);
+    int n = triangle( int height);
     printf("%d\n", n);
     return 0;
 }
