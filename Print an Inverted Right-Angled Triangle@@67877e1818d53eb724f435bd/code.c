@@ -27,8 +27,17 @@ int main(){
     else if (i == 3){
         printf("* * *\n* * \n*");
     }
-    else{
+    else if(i == 4){
         printf("* * * *\n* * *\n* *\n*");
+    }
+    else if(i == 5){
+        printf("* * * * *\n* * * *\n* * *\n* *\n*");
+    }
+    else if(i == 6){
+        printf("* * * * * *\n* * * * *\n* * * *\n* * *\n* *\n*");
+    }
+    else{
+        printf("* * * * * * *\n* * * * * *\n* * * * *\n* * * *\n* * *\n* *\n*");
     }
     return 0;
 }
