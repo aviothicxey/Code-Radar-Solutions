@@ -1,7 +1,7 @@
 # include <stdio.h>
 void triangle( int height){
     for(int i = height ; i>0 ; i--){
-        for (j = 0 , j< i ; j++){
+        for (int j = 0 , j< i ; j++){
             printf("*");
         }
     }
