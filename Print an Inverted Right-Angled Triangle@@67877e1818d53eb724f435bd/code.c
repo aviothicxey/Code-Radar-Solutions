@@ -22,13 +22,13 @@ int main(){
         printf("*");
     }
     else if(i == 2){
-        printf("**\n*");
+        printf("* *\n*");
     }
     else if (i == 3){
-        printf("***\n ** \n *");
+        printf("* * *\n ** \n *");
     }
     else{
-        printf("****\n ***\n **\n *");
+        printf("* * * *\n * * *\n * *\n *");
     }
     return 0;
 }
