@@ -24,4 +24,10 @@ int main(){
     else if(i = 2){
         printf("**\n*");
     }
+    else if (i = 3){
+        printf("***\n ** \n *");
+    }
+    else{
+        printf("****\n ***\n **\n *");
+    }
 }
