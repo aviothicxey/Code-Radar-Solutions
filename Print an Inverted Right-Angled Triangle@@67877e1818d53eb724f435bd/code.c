@@ -18,13 +18,13 @@
 int main(){
     int i ;
     scanf("%d\n",&i);
-    if (i=1){
+    if (i==1){
         printf("*");
     }
-    else if(i = 2){
+    else if(i == 2){
         printf("**\n*");
     }
-    else if (i = 3){
+    else if (i == 3){
         printf("***\n ** \n *");
     }
     else{
