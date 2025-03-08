@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main() {
     int a;
-    scanf("%d", &a);  // Corrected scanf
+    scanf("%d", &a);
 
-    for (int i = 0; i < a; i++) {  // Outer loop runs 'a' times
-        for (int j = 0; j <= i; j++) {  // Inner loop prints increasing pattern
+    for (int i = 0; i < a; i++) { 
+        for (int j = 0; j <= i; j++) { 
             int sum = i + j;
-            printf("%d ", sum);  // Space added for readability
+            printf("%d ", sum);  
         }
-        printf("\n");  // New line for better formatting
+        printf("\n");
     }
 
     return 0;
