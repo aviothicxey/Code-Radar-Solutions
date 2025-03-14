@@ -11,8 +11,4 @@ def caesar_cipher(text, shift):
 
     return result
 
-# Example usage
-message = "Hello, World!"
-shift_value = 3
-encrypted_message = caesar_cipher(message, shift_value)
-print("Encrypted Message:", encrypted_message)
+
