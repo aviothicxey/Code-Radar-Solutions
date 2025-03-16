@@ -25,9 +25,10 @@ int main() {
          case 7:
         printf("Sunnday");
         break;
-    }
+    
     default:{
         printf("Invalid");
+    }
     }
 
     // printf("Hello, World!\n");
