@@ -1,26 +1,32 @@
 #include <stdio.h>
 
 int main() {
-    int a , b;
+    int a, b;
     char c;
-    int d = a+b;
-    int e = a * b;
-    int f = a -b ;
-    int g = a/b;
-    scanf("%d%d%c",&a,&b,&c);
-    if (c = "+"){
-        printf("%d",d);
-    }
-    else if ( c = "-"){
-        printf("%d",f);
-    }
-    else if( c = "*"){
-        printf("%d",e);
-    }
-    else{
-        printf("%d",g);
-    }
-    // printf("Hello, World!\n");
     
+    printf("Enter two numbers and an operator: ");
+    scanf("%d %d %c", &a, &b, &c);  // Fix: Added space before %c
+
+    int d = a + b;
+    int e = a * b;
+    int f = a - b;
+    int g = (b != 0) ? a / b : 0; // Prevent division by zero
+
+    if (c == '+') {
+        printf("%d", d);
+    }
+    else if (c == '-') {
+        printf("%d", f);
+    }
+    else if (c == '*') {
+        printf("%d", e);
+    }
+    else if (c == '/' && b != 0) {
+        printf("%d", g);
+    }
+    else {
+        printf("Invalid operator or division by zero");
+    }
+
     return 0;
 }
