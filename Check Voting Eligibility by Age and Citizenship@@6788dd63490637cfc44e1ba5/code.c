@@ -3,7 +3,7 @@
 int main() {
    int age , votingage = 18;
    printf(" ");
-   scanf("%d\n",&age);
+   scanf("%d",&age);
    if(age>= votingage){
        printf("Eligible");
    }
