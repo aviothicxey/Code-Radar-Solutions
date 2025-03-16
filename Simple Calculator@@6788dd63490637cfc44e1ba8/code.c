@@ -8,13 +8,13 @@ int main() {
     int f = a -b ;
     int g = a/b;
     scanf("%d%d%c",&a,&b,&c);
-    if (c == "+"){
+    if (c = "+"){
         printf("%d",d);
     }
-    else if ( c == "-"){
+    else if ( c = "-"){
         printf("%d",f);
     }
-    else if( c == "*"){
+    else if( c = "*"){
         printf("%d",e);
     }
     else{
