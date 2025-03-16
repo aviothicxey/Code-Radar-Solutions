@@ -4,7 +4,7 @@ int main() {
    int age , votingage = 18;
    
    scanf("%d",&age);
-   if(age>= votingage){
+   if(age> votingage){
        printf("Eligible");
    }
    else {
