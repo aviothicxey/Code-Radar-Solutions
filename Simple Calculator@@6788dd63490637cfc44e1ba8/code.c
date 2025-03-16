@@ -25,7 +25,7 @@ int main() {
         printf("%d", g);
     }
     else {
-        printf("Invalid operator or division by zero");
+        printf("error");
     }
 
     return 0;
