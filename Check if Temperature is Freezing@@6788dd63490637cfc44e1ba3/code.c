@@ -2,6 +2,7 @@
 
 int main() {
 int a;
+scanf("%d",&a);
 int freezing = 0;
 if ( a > freezing){
     printf("Above Freezing");
