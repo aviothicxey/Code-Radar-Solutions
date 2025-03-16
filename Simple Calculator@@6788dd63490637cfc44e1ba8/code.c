@@ -4,7 +4,7 @@ int main() {
     int a, b;
     char c;
     
-    printf("Enter two numbers and an operator: ");
+   
     scanf("%d %d %c", &a, &b, &c);  // Fix: Added space before %c
 
     int d = a + b;
