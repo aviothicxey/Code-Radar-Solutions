@@ -26,8 +26,8 @@ int main() {
         printf("Sunnday");
         break;
     }
-    default{
-        printf("Invalid")
+    default:{
+        printf("Invalid");
     }
 
     // printf("Hello, World!\n");
