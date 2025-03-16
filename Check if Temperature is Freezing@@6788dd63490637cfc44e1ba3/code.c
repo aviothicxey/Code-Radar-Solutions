@@ -7,7 +7,7 @@ if ( a > freezing){
     printf("Not Freezing");
 }
 else{
-    printf("Freezing")
+    printf("Freezing");
 }
 
     
