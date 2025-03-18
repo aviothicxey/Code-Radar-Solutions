@@ -39,12 +39,12 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 3;  // Rotate by 3 positions
 
-    printf("Original array: ");
-    printArray(arr, n);
+   
+    
 
     rotateArray(arr, n, k);
 
-    printf("Rotated array: ");
+    
     printArray(arr, n);
 
     return 0;
