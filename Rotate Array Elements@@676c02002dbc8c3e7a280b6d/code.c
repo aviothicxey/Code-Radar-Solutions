@@ -38,19 +38,19 @@ int main() {
     int n, k;
 
     // Input array size
-    printf("Enter the size of the array: ");
+    // printf("Enter the size of the array: ");
     scanf("%d", &n);
 
     int arr[n]; // Declaring array dynamically
 
     // Input array elements
-    printf("Enter %d elements: ", n);
+    // printf("Enter %d elements: ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     // Input rotation value
-    printf("Enter the value of K (rotation count): ");
+    // printf("Enter the value of K (rotation count): ");
     scanf("%d", &k);
 
     // Display original array
