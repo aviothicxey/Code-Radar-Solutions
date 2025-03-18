@@ -28,9 +28,9 @@ int main(){
     }
 
     scanf("%d", &k);
-    rotateArray(arr, n, k);
+    rotatearray(arr, n, k);
 
-    printArray(arr, n);
+    printarray(arr, n);
 
-    return 0;
+return 0;
 }
