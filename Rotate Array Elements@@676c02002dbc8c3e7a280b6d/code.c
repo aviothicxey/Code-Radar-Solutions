@@ -28,9 +28,10 @@ void rotateArray(int arr[], int n, int k) {
 // Function to print the array
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        printf("%d\n ", arr[i]);
+        printf("%d ", arr[i]);
+        printf("\n");
     }
-    // printf("\n");
+    
 }
 
 // Main function
