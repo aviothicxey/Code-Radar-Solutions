@@ -7,7 +7,7 @@ if(a==1){
     printf("1");
 }
 else if(a==2){
-    printf("\t1\n121");
+    printf(" 1\n121");
 }
 else if(a==3){
     printf("\t\t1\n\t121\n12321");
