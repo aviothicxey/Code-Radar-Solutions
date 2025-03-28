@@ -7,10 +7,10 @@ if(a==1){
     printf("1");
 }
 else if(a==2){
-    printf("1\n\121");
+    printf("1\n121");
 }
 else if(a==3){
-    printf("1\n\121\n\12321");
+    printf("1\n121\n12321");
 }
 return 0;
 }
