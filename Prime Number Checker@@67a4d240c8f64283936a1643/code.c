@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
-#include <math.h>  // Include math.h for sqrt()
-
  int main(){
     int t;
     scanf("%d",&t);
