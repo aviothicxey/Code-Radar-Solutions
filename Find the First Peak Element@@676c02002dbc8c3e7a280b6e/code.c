@@ -49,7 +49,7 @@ int main(){
         scanf("%d",&arr[i]);
 
     }
-    int peak = findFirstPeak(arr,n):
+    int peak = findFirstPeak(arr,n);
     printf("%d\n",peak);
     return 0;
 }
