@@ -11,7 +11,7 @@ int main(){
         scanf("%d ",&arr[i]);
     }
     int first = arr[0], second = -1;
-    for (i = 1 ; i<=n ; i++){
+    for (i = 1 ; i<n ; i++){
         if(arr[i] > first){
             second = first;
             first = arr[i];
@@ -23,8 +23,11 @@ int main(){
     if (second == -1){
         printf("-1");
     }
-    else{
+    else if{
         printf("%d",second);
+    }
+    else{
+        printf("-1");
     }
     return 0;
 }
