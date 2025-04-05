@@ -4,7 +4,7 @@ int main(){
     int i , n;
     scanf("%d ",&n);
     if (n<2){
-        return 0;
+        return -1;
     }
     int arr[n];
     for (i = 0; i<=n ; i++){
@@ -23,11 +23,8 @@ int main(){
     if (second == -1){
         printf("-1");
     }
-    else if{
-        printf("%d",second);
-    }
     else{
-        printf("-1");
+        printf("%d",second);
     }
     return 0;
 }
