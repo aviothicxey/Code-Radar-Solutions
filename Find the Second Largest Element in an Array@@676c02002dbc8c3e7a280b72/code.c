@@ -24,7 +24,7 @@ int main(){
         printf("-1\n");
     }
     else{
-        printf("%d",&second);
+        printf("%d",second);
     }
     return 0;
 }
