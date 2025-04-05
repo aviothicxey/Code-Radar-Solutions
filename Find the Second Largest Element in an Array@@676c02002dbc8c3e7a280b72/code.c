@@ -2,13 +2,13 @@
 #include <stdio.h>
 int main(){
     int i , n;
-    scanf("%d",&n);
+    scanf("%d ",&n);
     if (n<2){
         return 0;
     }
     int arr[n];
     for (i = 0; i<n ; i++){
-        scanf("%d",&arr[i]);
+        scanf("%d ",&arr[i]);
     }
     int first = arr[0], second = -1;
     for (i = 1 ; i<n ; i++){
