@@ -10,21 +10,22 @@ int main(){
         freq[i]= -1;
     }
     for(i = 0 ; i <n ; i++){
-        int count = 1;
+       if (freq[i]== -1){
+         int count = 1;
+         
         for (j = 1+i ; j<n ; j++){
             if(arr[i]== arr[j]){
                 count++;
                 freq[j]= 0;
             }
         }
-        if(freq[i]!= 0){
-            freq[i]= count;
+        freq[i] = count;
         }
     }
     for( i = 0; i<n ; i++){
         if(freq[i]!= 0){
             printf("%d %d",arr[i], freq[i]);
         }
-        return 0;
     }
+    return 0;
 }
