@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int n ; 
-    int i, int j;
+    int i,  j;
     int arr[n];
     scanf("%d",&n);
     for (i = 0; i<= n; i++){
@@ -13,7 +13,7 @@ int main(){
             printf("%d",arr[i]);
         }
         else{
-            printf(-1);
+            printf("-1");
         }
     }
 }
